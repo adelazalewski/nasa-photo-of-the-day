@@ -1,10 +1,10 @@
 import React from "react";
 
 const Description = (props) => {
-    const { explination } = props;
+    const { explanation } = props;
     return(
         <div className="date-container">
-            <p id='explanation'>{explination}</p>
+            <p id='explanation'>{explanation}</p>
         </div>
     );
 };

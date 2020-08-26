@@ -11,6 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.header{
+/* .header{
   background: lightblue;
+} */
+img{
+  width: 50%;
+}
+#like-logo{
+  width: 10%;
+}
+#nasa-logo{
+  width: 10%;
 }
