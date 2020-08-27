@@ -3,6 +3,7 @@ import Header from "./components/header.js";
 import Footer from "./components/footer";
 import ImageContainer from "./components/imageContainer";
 import axios from "axios";
+import styled from "styled-components";
 import "./App.css";
 import Title from "./components/title.js";
 //https://api.nasa.gov/planetary/apod

@@ -23,3 +23,9 @@ img{
 #nasa-logo{
   width: 10%;
 }
+a{
+  padding: 1rem;
+}
+header img:hover{
+  cursor: pointer;
+}
