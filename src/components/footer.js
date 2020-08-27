@@ -3,13 +3,13 @@ import "../index.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import styled from "styled-components";
-import HeaderWraper from "./header";
+import { DivWraper } from "./divBackground";
 
-const FooterWraper = styled(HeaderWraper);
+//const FooterWraper = styled(HeaderWraper);
 
 const Footer = () => {
     return(
-        <div className="footer">
+        <DivWraper>
             <footer>
                 <p id="copyRight">&copy; NASA's Photo Of The Day 2020</p>
                 <div className="social">
@@ -17,7 +17,7 @@ const Footer = () => {
                     <a href="https://www.facebook.com/adela.georgiana.986"><FontAwesomeIcon icon={faFacebookSquare} /></a>
                 </div>
             </footer>
-        </div>
+        </DivWraper>
     )
 }
 

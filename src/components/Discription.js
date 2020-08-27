@@ -5,13 +5,15 @@ const DivWraper = styled.div`
 border: 1px solid grey;
 margin: 1rem;
 `;
-
+const PTag = styled.p`
+padding: 0.5rem;
+`;
 
 const Description = (props) => {
     const { explanation } = props;
     return(
         <DivWraper className="date-container">
-            <p id='explanation'>{explanation}</p>
+            <PTag id='explanation'>{explanation}</PTag>
         </DivWraper>
     );
 };

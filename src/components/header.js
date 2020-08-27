@@ -3,10 +3,11 @@ import "../index.css";
 import LikeImg from "./like_PNG48.png";
 import NasaLogo from "./1224px-NASA_logo.svg.png";
 import styled from "styled-components";
+import {DivWraper} from "./divBackground";
 
-export const HeaderWraper = styled.div`
-background: #008B8B;
-`;
+// export const HeaderWraper = styled.div`
+// background: #008B8B;
+// `;
 const HeaderTag = styled.header`
 display: flex;
 flex-direction: row;
@@ -16,7 +17,7 @@ justify-content: space-between;
 const Header = (props) => {
     const { numberOfLikes, likeApp } = props;
     return(
-        <HeaderWraper>
+        <DivWraper>
             <HeaderTag>
                 <div>
                     <a href="https://en.wikipedia.org/wiki/NASA"><img id="nasa-logo" alt="nasa-logo" src={NasaLogo} /></a>
@@ -31,7 +32,7 @@ const Header = (props) => {
                     <p id="thank-you">Thank you!</p>
                 </div>
             </HeaderTag>
-        </HeaderWraper>
+        </DivWraper>
     );
 }
 
