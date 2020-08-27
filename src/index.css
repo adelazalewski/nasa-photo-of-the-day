@@ -1,3 +1,9 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+h1, h3{
+  font-family: 'Do Hyeon', sans-serif;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -17,14 +23,17 @@ code {
 img{
   width: 50%;
 }
+
 #like-logo{
-  width: 10%;
+  width: 7rem;
 }
 #nasa-logo{
-  width: 10%;
+  width: 7rem;
 }
 a{
   padding: 1rem;
+  text-decoration: none;
+  color: black;
 }
 header img:hover{
   cursor: pointer;

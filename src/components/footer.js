@@ -2,6 +2,11 @@ import React from "react";
 import "../index.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
+import styled from "styled-components";
+import HeaderWraper from "./header";
+
+const FooterWraper = styled(HeaderWraper);
+
 const Footer = () => {
     return(
         <div className="footer">
